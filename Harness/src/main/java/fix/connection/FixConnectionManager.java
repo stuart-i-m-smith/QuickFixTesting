@@ -17,31 +17,8 @@ class FixConnectionManager {
     }
 
     void connect() {
-
         try{
-/*
-            FileStoreFactory storeFactory = new FileStoreFactory(settings);
-            LogFactory logFactory = new ScreenLogFactory(settings);
-
-            SocketAcceptor acceptor = new SocketAcceptor(
-                    fixService,
-                    storeFactory,
-                    settings,
-                    logFactory,
-                    new DefaultMessageFactory());
-
-            SocketInitiator initiator = new SocketInitiator(
-                    fixService,
-                    storeFactory,
-                    settings,
-                    logFactory,
-                    new DefaultMessageFactory());
-
-            acceptor.start();
-            initiator.start();
-*/
             connector.start();
-
         } catch (ConfigError e) {
             LOGGER.error("Error connecting over fix <{}>",connector, e);
             throw new RuntimeException(e);
