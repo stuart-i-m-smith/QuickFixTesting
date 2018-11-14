@@ -16,7 +16,7 @@ public class FixConnectionInitiatorManager {
     private final InputStream fileInputStream;
 
     private FixConnectionManager connectionManager;
-    private SocketAcceptor acceptor;
+    private SocketInitiator acceptor;
 
     public FixConnectionInitiatorManager(InputStream fileInputStream,
                                          Application fixService){
@@ -30,7 +30,7 @@ public class FixConnectionInitiatorManager {
         try {
             settings = new SessionSettings(fileInputStream);
 
-            acceptor = new SocketAcceptor(
+            acceptor = new SocketInitiator(
                     fixService,
                     new FileStoreFactory(settings),
                     settings,
