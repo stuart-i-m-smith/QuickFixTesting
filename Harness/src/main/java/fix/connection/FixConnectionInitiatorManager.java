@@ -39,7 +39,6 @@ public class FixConnectionInitiatorManager {
 
             this.connectionManager = new FixConnectionManager(initiator);
             this.connectionManager.connect();
-
         }catch (ConfigError e){
             LOGGER.error("Error connecting over fix InputStream <{}> Settings <{}>",
                     fileInputStream, settings, e);

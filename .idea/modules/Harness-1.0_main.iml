@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="1.0:main" external.linked.project.path="$MODULE_DIR$/../../Harness" external.root.project.path="$MODULE_DIR$/../../Harness" external.system.id="GRADLE" external.system.module.group="Harness" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../Harness/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../Harness/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../Harness/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Harness/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.quickfixj:quickfixj-core:2.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.mina:mina-core:2.0.19" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+  </component>
+</module>

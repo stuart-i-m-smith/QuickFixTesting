@@ -4,6 +4,9 @@ import harness.LoggerFactory;
 import org.slf4j.Logger;
 import quickfix.*;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 import static java.lang.invoke.MethodHandles.lookup;
 
 class FixConnectionManager {
@@ -16,7 +19,7 @@ class FixConnectionManager {
         this.connector = connector;
     }
 
-    void connect() {
+    Collection<SessionID> connect() {
         try{
             connector.start();
         } catch (ConfigError e) {
@@ -24,5 +27,6 @@ class FixConnectionManager {
             throw new RuntimeException(e);
         }
 
+        return connector.getSessions();
     }
 }

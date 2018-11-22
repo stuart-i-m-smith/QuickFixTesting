@@ -3,7 +3,6 @@ package fix.connection;
 import harness.LoggerFactory;
 import org.slf4j.Logger;
 import quickfix.*;
-import sun.security.krb5.Config;
 
 import java.io.InputStream;
 
