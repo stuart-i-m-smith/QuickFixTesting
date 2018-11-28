@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="1.0_main" target="1.8" />
       <module name="1.0_test" target="1.8" />
+      <module name="framework_main" target="1.8" />
+      <module name="framework_test" target="1.8" />
       <module name="Harness-1.0_main" target="1.8" />
       <module name="Harness-1.0_test" target="1.8" />
     </bytecodeTargetLevel>

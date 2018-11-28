@@ -9,11 +9,20 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Gradle: quickfixj:quickfixj-msg-fix44:1.3.1">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Harness/Could not find quickfixj:quickfixj-msg-fix44:1.3.1.&#10;Searched in the following locations:&#10;  - https:/repo.maven.apache.org/maven2/quickfixj/quickfixj-msg-fix44/1.3.1/quickfixj-msg-fix44-1.3.1.pom&#10;  - https:/repo.maven.apache.org/maven2/quickfixj/quickfixj-msg-fix44/1.3.1/quickfixj-msg-fix44-1.3.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: org.quickfixj:quickfixj-core:2.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.mina:mina-core:2.0.19" level="project" />
-    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
   </component>
 </module>
